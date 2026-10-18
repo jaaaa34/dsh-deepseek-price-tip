@@ -1,0 +1,60 @@
+{
+  "name": "@local/deepseek-price-tip",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Shows whether the official DeepSeek API is on peak or off-peak pricing and refreshes the CNY price table from the official Chinese docs.",
+  "icon": "./icon.svg",
+  "license": "MIT",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "lib",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/pricing.test.mjs && node test/host.test.mjs && node test/client.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek",
+    "pricing",
+    "peak",
+    "off-peak",
+    "harness"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaaaa34/dsh-deepseek-price-tip.git"
+  },
+  "homepage": "https://github.com/jaaaa34/dsh-deepseek-price-tip#readme",
+  "bugs": {
+    "url": "https://github.com/jaaaa34/dsh-deepseek-price-tip/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}

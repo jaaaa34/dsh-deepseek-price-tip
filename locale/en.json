@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DeepSeek Price Period",
+    "description": "Shows below the composer whether the official DeepSeek API is currently on peak or off-peak pricing, the time to the next switch, and the live price table. A refresh button re-reads the official pricing page and updates both the prices and the peak-hour rule."
+  }
+}

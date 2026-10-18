@@ -1,0 +1,10 @@
+# Runtime cache written by the Host half (regenerated on refresh)
+data/
+
+# Dependencies
+node_modules/
+
+# Logs and OS clutter
+*.log
+.DS_Store
+Thumbs.db

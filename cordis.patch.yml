@@ -1,0 +1,3 @@
+- insert:
+    - id: deepseek-price-tip
+      name: '@local/deepseek-price-tip'

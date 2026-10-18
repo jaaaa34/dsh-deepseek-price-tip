@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="DeepSeek price period">
+  <defs>
+    <linearGradient id="dp-split" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f59e0b"/>
+      <stop offset="0.499" stop-color="#f59e0b"/>
+      <stop offset="0.501" stop-color="#14b8a6"/>
+      <stop offset="1" stop-color="#14b8a6"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="29" fill="url(#dp-split)"/>
+  <circle cx="32" cy="32" r="22" fill="#ffffff"/>
+  <path d="M32 15v17l11 6" fill="none" stroke="#1f2937" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="32" cy="32" r="3" fill="#1f2937"/>
+</svg>
