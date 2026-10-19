@@ -6,6 +6,8 @@
 
 在 Harness Web UI 的输入框下方显示一个小胶囊，提醒你 DeepSeek 官方 API 当前处于 **峰价** 还是 **谷价**，以及距离下次切换还有多久。点开胶囊可以查看当前价目表（人民币）、峰时规则、数据来源和抓取时间，并可从官网重新抓取。
 
+胶囊样式和原生胶囊（会话统计、Token 用量、上下文用量）保持一致。
+
 使用 DeepSeek Harness 的创造模式完成。
 
 ## 功能
@@ -15,6 +17,10 @@
 - **从官网更新**：面板里的“立即更新”会读取 <https://api-docs.deepseek.com/zh-cn/quick_start/pricing>，同时更新价格和峰谷时段规则（时间窗口、星期、是否排除节假日）。
 - **自动更新**：启动时以及之后每 30 分钟检查一次，缓存超过 `autoRefreshHours` 小时就在后台重新抓取。抓取失败时保留旧表，并在面板里报告原因。
 - **Agent 工具**：`deepseek_price_tip`，`action: status | refresh`，与面板共用同一份数据。
+
+### 截图展示
+
+<img width="552" height="515" alt="image" src="https://github.com/user-attachments/assets/5f96d9b2-f188-484c-81fc-b7b5784e797e" />
 
 ## 安装
 
