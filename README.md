@@ -1,5 +1,9 @@
 # DeepSeek 价格峰谷提醒
 
+[![Listed on dsh-plugin.org](https://dsh-plugin.org/badges/listed.svg)](https://dsh-plugin.org/plugins/jaaaa34/dsh-deepseek-price-tip)
+
+---
+
 在 Harness Web UI 的输入框下方显示一个小胶囊，提醒你 DeepSeek 官方 API 当前处于 **峰价** 还是 **谷价**，以及距离下次切换还有多久。点开胶囊可以查看当前价目表（人民币）、峰时规则、数据来源和抓取时间，并可从官网重新抓取。
 
 使用 DeepSeek Harness 的创造模式完成。
